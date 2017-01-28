@@ -1,0 +1,204 @@
+.DatePicker-Target {
+}
+
+.DatePicker-Sender {
+}
+
+.DatePicker-CalendarPanel {
+}
+
+.DatePicker-CalendarPanel-Header {
+    font-size: 8pt;
+    color: white;
+    font-family: Verdana;
+    background: url(img/datepicker/header.jpg);
+}
+
+.DatePicker-CalendarPanel-Header-Prev {
+    text-align: left;
+    cursor: pointer;
+}
+
+.DatePicker-CalendarPanel-Header-Prev-icon {
+}
+
+.DatePicker-CalendarPanel-Header-Next {
+    text-align: right;
+    cursor: pointer;
+}
+
+.DatePicker-CalendarPanel-Header-Next-icon {
+}
+
+.DatePicker-CalendarPanel-Header-Title {
+    text-align: center;
+}
+
+.DatePicker-CalendarPanel-Header-Title-Month {
+    margin-right: 5px;
+    display: inline;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.DatePicker-CalendarPanel-Header-Title-Year {
+    margin-left: 5px;
+    display: inline;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.DatePicker-CalendarPanel-Weekday {
+    font-size: 7pt;
+    cursor: default;
+    font-family: Verdana;
+    text-align: center;
+    padding-right: 7px;
+    padding-left: 7px;
+    background: url(img/datepicker/days.jpg);
+}
+
+.DatePicker-CalendarPanel-Days {
+	border: black 1px solid;
+}
+
+.DatePicker-CalendarPanel-Days-Prev-month {
+    border-top: silver 1px solid;
+    font-size: 8pt;
+    border-left: silver 1px solid;
+    cursor: pointer;
+    font-family: Verdana;
+    background-color: gray;
+    text-align: center;
+    color: white;
+}
+
+.DatePicker-CalendarPanel-Days-Prev-month-over {
+    border-top: silver 1px solid;
+    font-size: 8pt;
+    border-left: silver 1px solid;
+    cursor: pointer;
+    font-family: Verdana;
+    background-color: silver;
+    text-align: center;
+    color: white;
+}
+
+.DatePicker-CalendarPanel-Days-Next-month {
+    border-top: silver 1px solid;
+    font-size: 8pt;
+    border-left: silver 1px solid;
+    cursor: pointer;
+    font-family: Verdana;
+    background-color: gray;
+    text-align: center;
+    color: white;
+}
+
+.DatePicker-CalendarPanel-Days-Next-month-over {
+    border-top: silver 1px solid;
+    font-size: 8pt;
+    border-left: silver 1px solid;
+    cursor: pointer;
+    font-family: Verdana;
+    background-color: silver;
+    text-align: center;
+    color: white;
+}
+
+.DatePicker-CalendarPanel-Days-Day {
+    border-top: silver 1px solid;
+   	font-size: 8pt;
+	border-left: silver 1px solid;
+	cursor: pointer;
+	font-family: Verdana;
+	background-color: white;
+	text-align: center;
+}
+
+.DatePicker-CalendarPanel-Days-Day-over {
+    border-top: silver 1px solid;
+   	font-size: 8pt;
+	border-left: silver 1px solid;
+	cursor: pointer;
+	font-family: Verdana;
+	background-color: #99CDFF;
+	text-align: center;
+	color: white;
+}
+
+.DatePicker-CalendarPanel-Days-Day-selected {
+    font-family: Verdana;
+    font-size: 8pt;
+    background-color: #CCCDFF;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    border-top: 1px solid silver;
+    border-left: 1px solid silver;
+}
+
+.DatePicker-CalendarPanel-Days-Day-selected-over {
+    border-top: silver 1px solid;
+   	font-size: 8pt;
+	border-left: silver 1px solid;
+	cursor: pointer;
+	font-family: Verdana;
+	background-color: #99CDFF;
+	text-align: center;
+	color: white;
+}
+
+.DatePicker-CalendarPanel-Months-Month {
+}
+
+.DatePicker-CalendarPanel-Months-Month {
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 7pt;
+    cursor: pointer;
+    font-family: Verdana;
+    border-collapse: collapse;
+    background-color: white;
+    text-align: center;
+    border: black 1px solid;
+}
+
+.DatePicker-CalendarPanel-Months-Month-over {
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 7pt;
+    cursor: pointer;
+    font-family: Verdana;
+    border-collapse: collapse;
+    background-color: silver;
+    text-align: center;
+    border: black 1px solid;
+}
+
+.DatePicker-CalendarPanel-Years {
+}
+
+.DatePicker-CalendarPanel-Years-Year {
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 7pt;
+    cursor: pointer;
+    font-family: Verdana;
+    border-collapse: collapse;
+    background-color: white;
+    text-align: center;
+    border: black 1px solid;
+}
+
+.DatePicker-CalendarPanel-Years-Year-over {
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 7pt;
+    cursor: pointer;
+    font-family: Verdana;
+    border-collapse: collapse;
+    background-color: silver;
+    text-align: center;
+    border: black 1px solid;
+}

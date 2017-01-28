@@ -1,0 +1,41 @@
+<project name="gwt-widget-datepicker" default="compile" basedir=".">
+
+    <property name="build.dir" value="target"/>
+
+    <taskdef resource="org/apache/maven/artifact/ant/antlib.xml"/>
+
+    <dependencies filesetId="gwt.dependencies.id" useScope="runtime">
+        <dependency 
+            groupId="com.google"
+            artifactId="gwt-user-compile"
+            version="1.2">
+        </dependency>
+        <dependency 
+            groupId="com.google"
+            artifactId="gwt-dev-windows"
+            version="1.2">
+        </dependency>
+        <dependency 
+            groupId="logogin"
+            artifactId="gwt-helper-client"
+            version="1.0-SNAPSHOT">
+        </dependency>
+    </dependencies>
+
+    <path id="project.class.path">
+        <pathelement path="src/main/java"/>
+        <fileset refid="gwt.dependencies.id"/>
+    </path>
+
+    <target name="compile">
+        <java failonerror="true" 
+                fork="true"
+                classname="com.google.gwt.dev.GWTCompiler">
+            <arg line="-logLevel WARN"/>
+            <arg line="-out ${build.dir}"/>
+            <arg line="logogin.gwt.user.ui.DatePicker"/>
+            <classpath refid="project.class.path" />
+        </java>
+    </target>
+
+</project>

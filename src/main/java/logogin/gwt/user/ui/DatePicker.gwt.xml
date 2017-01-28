@@ -1,0 +1,10 @@
+
+<module>
+    <inherits name='com.google.gwt.i18n.I18N'/>
+    <inherits name='com.google.gwt.user.User'/>
+    <inherits name='logogin.gwt.logger.GWTClientModule'/>
+    <extend-property name="locale" values="ua"/>
+
+    <entry-point class='logogin.gwt.user.ui.client.DatePicker'/>
+    <stylesheet src='DatePicker.css'/>
+</module>
